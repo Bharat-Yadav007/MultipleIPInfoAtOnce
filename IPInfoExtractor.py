@@ -1,7 +1,6 @@
 import csv
 import requests
 from typing import Dict, Any
-import time
 
 def getIPinfo_ipinfo_io(ip_address: str) -> Dict[str, Any]:
     url = f"https://ipinfo.io/{ip_address}/json"
