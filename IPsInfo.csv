@@ -1,3 +1,31 @@
-IP,City,Region,Country,Location,Org,Timezone,Hostname,Error
-8.8.8.8,Mountain View,California,US,"37.4056,-122.0775",AS15169 Google LLC,America/Los_Angeles,dns.google,
-1.1.1.1,Brisbane,Queensland,AU,"-27.4816,153.0175","AS13335 Cloudflare, Inc.",Australia/Brisbane,one.one.one.one,
+IP,ipinfo.io Data,ip-api.com Data,Errors
+8.8.8.8,"City: Mountain View
+Region: California
+Country: US
+Location: 37.4056,-122.0775
+Organization: AS15169 Google LLC
+Timezone: America/Los_Angeles
+Hostname: dns.google
+Postal Code: 94043","City: Ashburn
+Region: Virginia
+Country: United States
+Location: 39.03,-77.5
+Organization: AS15169 Google LLC
+Timezone: America/New_York
+ISP: Google LLC
+Postal Code: 20149",No Errors
+1.1.1.1,"City: Brisbane
+Region: Queensland
+Country: AU
+Location: -27.4816,153.0175
+Organization: AS13335 Cloudflare, Inc.
+Timezone: Australia/Brisbane
+Hostname: one.one.one.one
+Postal Code: 4101","City: South Brisbane
+Region: Queensland
+Country: Australia
+Location: -27.4766,153.0166
+Organization: AS13335 Cloudflare, Inc.
+Timezone: Australia/Brisbane
+ISP: Cloudflare, Inc
+Postal Code: 4101",No Errors
