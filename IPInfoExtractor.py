@@ -98,11 +98,13 @@ def get_combined_ip_info(ip_address: str) -> Dict[str, Any]:    # Get data from 
     return combined_data
 
 def process_ips_from_csv(input_file: str, output_file: str) -> None:
-    with open(input_file, 'r') as csv_in, open(output_file, 'w', newline='') as csv_out:
+    print("IPs Received....")
+    with open(input_file, 'r', encoding='utf-8') as csv_in, open(output_file, 'w', newline='', encoding='utf-8') as csv_out:
         reader = csv.DictReader(csv_in)
         fieldnames = ['IP', 'ipinfo.io Data', 'ip-api.com Data', 'Errors']
         writer = csv.DictWriter(csv_out, fieldnames=fieldnames)
         writer.writeheader()
+        print("Extracting IP Information....")
 
         for row in reader:
             ip = row['ip']
